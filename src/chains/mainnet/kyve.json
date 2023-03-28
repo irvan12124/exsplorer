@@ -1,0 +1,27 @@
+{
+    "chain_name": "Kyve",
+    "coingecko": "",
+    "api": [
+            "https://rest.cosmos.directory/kyve",
+            "https://api.kyve.nodestake.top",
+            "https://api-kyve.nodeist.net"
+          ],
+    "rpc": [
+            "https://rpc.cosmos.directory/kyve",
+            "https://rpc.kyve.nodestake.top",
+            "https://rpc-kyve.nodeist.net"
+          ],
+    "snapshot_provider": "",
+    "coin_type": 118,
+    "sdk_version": "0.46.8",
+    "addr_prefix": "kyve",
+    "logo": "/logos/kyve.jpg",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "assets": [{
+        "base": "tkyve",
+        "symbol": "KYVE",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/kyve.jpg"
+    }]
+}

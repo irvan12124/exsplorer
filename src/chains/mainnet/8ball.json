@@ -1,0 +1,29 @@
+{
+    "chain_name": "8Ball",
+    "api":[
+           "https://rest.cosmos.directory/8ball",
+           "https://api.8ball.nodestake.top",
+           "https://api-8ball.nodeist.net",
+           "https://api.8ball.nodexcapital.com"
+          ],
+    "rpc":[
+           "https://rpc.cosmos.directory/8ball",
+           "https://api.8ball.nodestake.top",
+           "https://rpc-8ball.nodeist.net",
+           "https://rpc.8ball.nodexcapital.com"
+         ],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.7",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "8ball",
+    "logo": "/logos/8ball.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "assets": [{
+        "base": "uebl",
+        "symbol": "EBL",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/8ball.png"
+    }]
+}

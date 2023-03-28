@@ -1,0 +1,25 @@
+{
+    "chain_name": "Hypersign-Testnet",
+    "api": [
+            "https://api-t.hypersign.nodestake.top",
+            "https://hypersign-testnet.api.kjnodes.com"
+          ],
+    "rpc": [
+            "https://rpc-t.hypersign.nodestake.top",
+            "https://hypersign-testnet.rpc.kjnodes.com"
+          ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.7",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "hid",
+    "logo": "/logos/hypersign.jpg",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "assets": [{
+        "base": "uhid",
+        "symbol": "HID",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/hypersign.jpg"
+    }]
+}

@@ -1,0 +1,26 @@
+{
+    "chain_name": "Whitewhale",
+    "api":[
+           "https://rest.cosmos.directory/migaloo",
+           "https://api.whitewhale.nodestake.top",
+           "https://migaloo-api.polkachu.com"
+          ],
+    "rpc":[
+           "https://rpc.whitewhale.nodestake.top",
+           "https://migaloo-rpc.polkachu.com"
+         ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.1",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "migaloo",
+    "logo": "/logos/whitewhale.jpg",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "assets": [{
+        "base": "uwhale",
+        "symbol": "WHALE",
+        "exponent": 6,
+        "coingecko_id": "white-whale",
+        "logo": "/logos/whitewhale.jpg"
+    }]
+}
